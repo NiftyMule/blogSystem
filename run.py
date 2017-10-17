@@ -1,7 +1,6 @@
 #coding=utf-8
 from bottle import route, get, run, post, request, redirect, static_file, response, request
 import bottle
-import requests
 import pymysql
 import os
 import re
