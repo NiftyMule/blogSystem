@@ -16,7 +16,7 @@ def load_template(filename):
     file = open(path, 'r')
     text = ""
     for line in file:
-        text+= line
+        text += line
     file.close()
     return text
 
